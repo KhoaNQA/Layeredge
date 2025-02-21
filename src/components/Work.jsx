@@ -25,7 +25,7 @@ const Work = () => {
             <button className='px-3 py-1 rounded-full bg-black text-white border'>Others</button>
             
         </div>
-        <div className='grid lg:grid-cols-4 grid-cols-2 py-12 md:gap-4 gap-1'>
+        <div className='grid lg:grid-cols-4 grid-cols-2 py-12 md:gap-4 gap-1 mx-20'>
             <Card 
             content={'A real-time ZK Proof Generation Layer with State-of-the-Art hardware and prover network.'}
             />
