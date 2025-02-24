@@ -1,15 +1,18 @@
-import React from 'react'
-import { Navbar, Hero, Work } from './components'
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Navbar, Hero, Work } from './components';
+import Ecosystem from './components/Ecosystem';
 
 const App = () => {
   return (
-    <div>
+    <Router>
       <Navbar />
-      <Hero />
-      <Work />
-      
-    </div>
-  )
-}
+      <Routes>
+        <Route path="/" element={<><Hero /><Work /></>} />
+        <Route path="/ecosystem" element={<Ecosystem />} />
+      </Routes>
+    </Router>
+  );
+};
 
-export default App
+export default App;

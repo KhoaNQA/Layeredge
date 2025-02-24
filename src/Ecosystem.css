@@ -1,0 +1,49 @@
+/* Component chứa từng đối tác */
+.Chains-component {
+    width: 330px; /* Đặt chiều rộng cố định */
+    background-color: #151515;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 120px;
+    border-width: 0.5px;
+    border-color: gray;
+    transition: transform 0.3s ease-in-out, border-color 0.3s ease-in-out; /* Hiệu ứng mượt */
+
+  }
+
+  .Chains-component:hover{
+    border-color: white;
+    transform: translateY(-2px);
+    cursor: pointer;
+  }
+  .contain{
+    /* background-color: red; */
+    margin-top: 50px;
+  }
+  
+  .Chains-img {
+    width: 80%; /* Thu nhỏ ảnh */
+    max-height: 60px; /* Giới hạn chiều cao */
+    object-fit: contain;
+  }
+
+  .h1{
+    font-family: 'Poppins', 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 50px;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  .title{
+    color: #3b82f6;
+    align-self: flex-start;
+    font-size: 32px;
+  }
+  
