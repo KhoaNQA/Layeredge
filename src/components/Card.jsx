@@ -1,11 +1,13 @@
 import React from 'react'
 
-const Card = ({content}) => {
+const Card = ({imgSrc,content}) => {
   return (
-    <div className='card md:p-4 p-2 shadow-lg rounded-md flex items-center gap-4 justify-between border border-transparent hover:border-white hover:cursor-pointer group/edit'>
-      <p className='md:max-w-[200px] max-w-[70px]  ml-10 text-white text-xs' >
+    <div className='card flex flex-col md:p-4 p-2 shadow-lg rounded-md items-center  border border-transparent hover:border-white hover:cursor-pointer group/edit'>
+      <img src={imgSrc} alt="Card image" className="w-16 h-16 object-contain " />
+
+      <div className='md:max-w-[200px] sm:max-w-[300px] max-w-full ml-4 text-gray-400 text-xs line-clamp-3 overflow-hidden' >
         {content}
-      </p>
+      </div>
         
     </div>
   )

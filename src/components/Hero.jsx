@@ -6,7 +6,7 @@ const Hero = () => {
     <div className='relative flex items-center justify-center text-center text-white'>
       <div className='relative w-full h-screen'>
         
-        <video className='hero' autoPlay loop muted>
+        <video className='hero w-full h-full object-cover' autoPlay loop muted>
           <source src={hero} type='video/mp4' />
         </video>
 
@@ -21,8 +21,8 @@ const Hero = () => {
               <ul>Internet</ul>
             </h2>
           <div className='flex gap-5'>
-            <button className='px-5 py-2 rounded-full bg-black text-white border'>Incentivized Testnet</button>
-            <button className='px-5 py-2 rounded-full bg-black text-white border'>Documentation</button>
+            <button className='px-5 py-2 rounded-full bg-black text-white border  hover:bg-gray-900'>Incentivized Testnet</button>
+            <button className='px-5 py-2 rounded-full bg-black text-white border  hover:bg-gray-900'>Documentation</button>
           </div>
         </div>
     </div>
