@@ -1,0 +1,26 @@
+.btn-lightnode:hover{
+    background-color: gray;
+}
+.nav-options{
+    font-weight: 400;
+    padding: 8px 10px; 
+    border-radius: 100px;
+
+}
+.nav-options:hover{
+    background-color: gray;
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5); 
+    backdrop-filter: blur(2px); 
+    transition: background-color 0.3s ease-in-out;
+}
+
+button svg {
+    transition: fill 0.3s ease-in-out;
+}
+
+button:hover svg {
+    color: white !important;
+}
+
