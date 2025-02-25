@@ -3,8 +3,8 @@ import grid from '../assets/grid.jpg';
 
 const What = () => {
   return (
-    <div className="relative w-full h-screen my-32">
-        <div className="absolute top-0 left-0 w-full h-[50vh] md:h-[75vh] opacity-5 flex flex-col">
+    <div className="relative w-full min-h-screen my-32 flex flex-col">
+        <div className="absolute top-0 left-0 w-full h-[50vh] md:h-[75vh] opacity-5 flex flex-col ">
             <img src={grid} className="w-full h-full object-contain" />
             <img src={grid} className="w-full h-full object-contain" />
             <img src={grid} className="w-full h-full object-contain" />
@@ -30,6 +30,7 @@ const What = () => {
                 <p className='text-gray-400 text-lg font-thin mt-2'>Unlocking Bitcoin as a bedrock for all blockchains/rollups and apps.</p>
             </div>
         </div>
+        <div className='h-32'></div>
     </div>
   )
 }
