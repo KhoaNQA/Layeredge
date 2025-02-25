@@ -16,10 +16,10 @@ const Hero = () => {
       
         <div className='text-white absolute justify-center items-center flex flex-col mx-10'>
           <p className='font-light text-lg'>Powering trustless settlement & trust-minimized verification on Bitcoin at 99% lower cost for all Layers & Apps</p>
-          <h2 className='font-bold text-7xl my-8'>
+          <h2 className='font-bold text-[min(8vw,5rem)] my-4 ' >
               <ul>Bitcoin Backed </ul>
               <ul>Internet</ul>
-            </h2>
+          </h2>
           <div className='flex gap-5'>
             <button className='px-5 py-2 rounded-full bg-black text-white border  hover:bg-gray-900'>Incentivized Testnet</button>
             <button className='px-5 py-2 rounded-full bg-black text-white border  hover:bg-gray-900'>Documentation</button>
