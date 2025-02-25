@@ -18,30 +18,30 @@ const Footer = () => {
 
                         <div className='flex items-center gap-5 ml-5'>
 
-                            <button className="group">
-                            <RiMediumLine
+                            <a href='' target='_blank' className="group">
+                                <RiMediumLine
+                                size={22} 
+                                className="text-gray-400 group-hover:text-white transition-colors duration-200"
+                                />
+                            </a>
+                            <a href='https://t.me/layeredge' target='_blank' className="group">
+                                <LiaTelegram
+                                size={22}
+                                className="text-gray-400 group-hover:text-white transition-colors duration-200"
+                                />
+                            </a>
+                            <a href='https://discord.com/invite/layeredge' target='_blank' className="group">
+                                <RxDiscordLogo
                                 size={22}
                                 className="text-gray-400 group-hover:text-white transition-colors duration-200"
                             />
-                            </button>
-                            <button className="group">
-                            <LiaTelegram
+                            </a>
+                            <a href='https://x.com/layeredge' target='_blank' className="group">
+                                <FaXTwitter
                                 size={22}
                                 className="text-gray-400 group-hover:text-white transition-colors duration-200"
-                            />
-                            </button>
-                            <button className="group">
-                            <RxDiscordLogo
-                                size={22}
-                                className="text-gray-400 group-hover:text-white transition-colors duration-200"
-                            />
-                            </button>
-                            <button className="group">
-                            <FaXTwitter
-                                size={22}
-                                className="text-gray-400 group-hover:text-white transition-colors duration-200"
-                            />
-                            </button>
+                                />
+                            </a>
                         </div>
                     </div>
 
@@ -53,19 +53,19 @@ const Footer = () => {
                 <div className='md:ml-56 mx-20 md:mt-0 mt-14'>
                     <h3 className='text-2xl font-bold text-white'>Explore</h3>
                     <ul className='py-6 text-[#6D737A]'>
-                        <li className='py-2'>Whitepaper</li>
-                        <li className='py-2'>GitHub</li>
-                        <li className='py-2'>Docs</li>
-                        <li className='py-2'>Bitcoin Testnet Explorer</li>
+                        <li className='py-2 my-3 hover:text-white hover:transition-colors hover:duration-200'><a href='https://github.com/Layer-Edge/Whitepaper' target='_blank'>Whitepaper</a></li>
+                        <li className='py-2 my-3 hover:text-white hover:transition-colors hover:duration-200'><a href='https://github.com/Layer-Edge' target='_blank'>GitHub</a></li>
+                        <li className='py-2 my-3 hover:text-white hover:transition-colors hover:duration-200'><a href='https://docs.layeredge.io/' target='_blank'>Docs</a></li>
+                        <li className='py-2 my-3 hover:text-white hover:transition-colors hover:duration-200'><a href='https://catsignet.com/' target='_blank'>Bitcoin Testnet Explorer</a></li>
                     </ul>
                 </div>
 
                 <div className='md:ml-56 mx-20 md:mt-0 mt-14'>
                     <h3 className='text-2xl font-bold text-white '>Resources</h3>
                     <ul className='py-6 text-[#6D737A]'>
-                        <li className='py-2'>Contact</li>
-                        <li className='py-2'>Blog</li>
-                        <li className='py-2'>Media Kit</li>
+                        <li className='py-2 my-3 hover:text-white hover:transition-colors hover:duration-200'><a href='' target='_blank'>Contact</a></li>
+                        <li className='py-2 my-3 hover:text-white hover:transition-colors hover:duration-200'><a href='' target='_blank'>Blog</a></li>
+                        <li className='py-2 my-3 hover:text-white hover:transition-colors hover:duration-200'><a href='https://drive.google.com/drive/folders/1avOvqo_wiJZ65JYw5Lvl4GqZaCfhitHg' target='_blank'>Media Kit</a></li>
                     </ul>
                 </div>
             </div>

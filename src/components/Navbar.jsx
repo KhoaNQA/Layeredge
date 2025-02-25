@@ -19,34 +19,36 @@ const Navbar = () => {
         <div className='md:max-w-[1480px] w-full m-auto h-full flex justify-between items-center px-5 sm:px-10'>
               
           <div className='flex'>
-            <img src={logo} className='h-[30px]'/>
+          <Link to="/">
+              <img src={logo} className="h-[30px] cursor-pointer" alt="Logo" />
+            </Link>
 
             <div className='hidden sm:flex items-center gap-5 ml-5'>
 
-              <button className="group">
+              <a href='' target='_blank' className="group">
                 <RiMediumLine
-                  size={22}
+                  size={22} 
                   className="text-gray-400 group-hover:text-white transition-colors duration-200"
                 />
-              </button>
-              <button className="group">
+              </a>
+              <a href='https://t.me/layeredge' target='_blank' className="group">
                 <LiaTelegram
                   size={22}
                   className="text-gray-400 group-hover:text-white transition-colors duration-200"
                 />
-              </button>
-              <button className="group">
+              </a>
+              <a href='https://discord.com/invite/layeredge' target='_blank' className="group">
                 <RxDiscordLogo
                   size={22}
                   className="text-gray-400 group-hover:text-white transition-colors duration-200"
                 />
-              </button>
-              <button className="group">
+              </a>
+              <a href='https://x.com/layeredge' target='_blank' className="group">
                 <FaXTwitter
                   size={22}
                   className="text-gray-400 group-hover:text-white transition-colors duration-200"
                 />
-              </button>
+              </a>
             </div>
           </div>
 
