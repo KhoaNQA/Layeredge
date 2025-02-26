@@ -45,14 +45,14 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <h3 className='py-2 text-white text-lg my-8'>Security Layer on Bitcoin.</h3>
-                    <p className='py-2 text-[#6D737A] font-thin text-md'>LayerEdge @ 2024-2025. All right reserved.</p>
+                    <h3 className='py-2 text-white text-[min(3vw,1.2rem)] my-8'>Security Layer on Bitcoin.</h3>
+                    <p className='py-2 text-[#6D737A] font-thin text-[min(3vw,1rem)]'>LayerEdge @ 2024-2025. All right reserved.</p>
                         
                 </div>
 
                 <div className='md:ml-56 mx-20 md:mt-0 mt-14'>
-                    <h3 className='text-2xl font-bold text-white'>Explore</h3>
-                    <ul className='py-6 text-[#6D737A]'>
+                    <h3 className='text-[min(4vw,1.5rem)] font-bold text-white'>Explore</h3>
+                    <ul className='py-6 text-[#6D737A] text-[min(3vw,1rem)]'>
                         <li className='py-2 my-3 hover:text-white hover:transition-colors hover:duration-200'><a href='https://github.com/Layer-Edge/Whitepaper' target='_blank'>Whitepaper</a></li>
                         <li className='py-2 my-3 hover:text-white hover:transition-colors hover:duration-200'><a href='https://github.com/Layer-Edge' target='_blank'>GitHub</a></li>
                         <li className='py-2 my-3 hover:text-white hover:transition-colors hover:duration-200'><a href='https://docs.layeredge.io/' target='_blank'>Docs</a></li>
@@ -61,8 +61,8 @@ const Footer = () => {
                 </div>
 
                 <div className='md:ml-56 mx-20 md:mt-0 mt-14'>
-                    <h3 className='text-2xl font-bold text-white '>Resources</h3>
-                    <ul className='py-6 text-[#6D737A]'>
+                    <h3 className='text-[min(4vw,1.5rem)] font-bold text-white '>Resources</h3>
+                    <ul className='py-6 text-[#6D737A] text-[min(3vw,1rem)]'>
                         <li className='py-2 my-3 hover:text-white hover:transition-colors hover:duration-200'><a href='' target='_blank'>Contact</a></li>
                         <li className='py-2 my-3 hover:text-white hover:transition-colors hover:duration-200'><a href='' target='_blank'>Blog</a></li>
                         <li className='py-2 my-3 hover:text-white hover:transition-colors hover:duration-200'><a href='https://drive.google.com/drive/folders/1avOvqo_wiJZ65JYw5Lvl4GqZaCfhitHg' target='_blank'>Media Kit</a></li>

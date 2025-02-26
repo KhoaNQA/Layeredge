@@ -5,13 +5,13 @@ const Banner = () => {
   return (
     <div className='text-white flex mx-auto my-32'>
         <div className='mx-20'>
-            <h2 className='font-bold text-[min(5vw,3.5rem)] lg:mx-32 mx-8'>
+            <h2 className='font-bold text-[min(6vw,3.5rem)] lg:mx-32 mx-8'>
                 <ul>Bitcoin</ul>
                 <ul>as Bedrock</ul>
                 <ul>For Blockchains</ul>
             </h2>
 
-            <div className='grid md:grid-cols-2 grid-cols-1 lg:mx-32 mx-2 mt-20 gap-10'>
+            <div className='grid md:grid-cols-2 grid-cols-1 lg:mx-32 mx-2 mt-20 gap-10 '>
                 <BannerCard 
                 title={'Modular'}
                 content={'Our modular architecture supports a flexible and adaptable infrastructure, allowing seamless integration with various protocols and stacks. This flexibility empowers developers to leverage Bitcoin L1’s security without burdening the Bitcoin network.'}
