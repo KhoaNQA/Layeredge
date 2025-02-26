@@ -52,39 +52,37 @@ const Navbar = () => {
             </div>
           </div>
 
-            <div className='hidden xl:flex' >
-              <ul className='flex gap-7 text-white'>
-                  <li className='nav-options'>Docs</li>
-                  <li className='nav-options'>Blog</li>
-                  <li className='nav-options'><Link to="/ecosystem">Ecosystem</Link></li>
-                  <li className='nav-options'>Explorer</li>
-              </ul>
-            </div>
-            
-            <div className='hidden xl:flex'>
-              <button className='px-5 py-2 rounded-full bg-black text-white border  hover:bg-gray-900'>Run a light node</button>
-            </div>
-
-            <div className='xl:hidden' onClick={handleClick}>
-              <img src={toggle?close:hamburger} className='h-[30px]'/>
-            </div>
-            
-
-        
-
-            <div className={toggle?' p-4 items-center flex flex-col justify-center bg-black text-white w-full px-8 xl:hidden ':'hidden'}>
-                <ul className='flex flex-col items-center justify-center font-bold gap-4'>
-                    <li className='px-4 py-2 rounded-full hover:bg-gray-900'>Docs</li>
-                    <li className='px-4 py-2 rounded-full hover:bg-gray-900'>Blog</li>
-                    <li className='px-4 py-2 rounded-full hover:bg-gray-900'>Ecosystem</li>
-                    <li className='px-4 py-2 rounded-full hover:bg-gray-900'>Expolrer</li>
-                    <div className='flex flex-col my-4 gap-4'>
-                        <button className='px-8 py-3 rounded-full border hover:bg-gray-900 text-white font-bold'>Run a light node</button>
-                    </div>
-                </ul>
-            </div>
+          <div className='hidden xl:flex' >
+            <ul className='flex gap-7 text-white'>
+                <li className='nav-options'>Docs</li>
+                <li className='nav-options'>Blog</li>
+                <li className='nav-options'><Link to="/ecosystem">Ecosystem</Link></li>
+                <li className='nav-options'>Explorer</li>
+            </ul>
+          </div>
           
+          <div className='hidden xl:flex'>
+            <button className='px-5 py-2 rounded-full bg-black text-white border  hover:bg-gray-900'>Run a light node</button>
+          </div>
+
+          <div className="xl:hidden cursor-pointer z-[100] absolute top-[35px] right-10" onClick={handleClick}>
+            <img src={toggle ? close : hamburger} className="h-[25px]" />
+          </div>
         </div>
+      </div>
+
+      <div className={`fixed top-0 left-0 w-full h-screen bg-black/90 text-white flex flex-col items-center justify-center transition-all duration-300 ease-in-out ${toggle ? "translate-y-0" : "-translate-y-full"} xl:hidden z-50`}>
+          <ul className="flex flex-col items-center font-bold gap-3">
+            <li className="px-4 py-2 rounded-full hover:bg-gray-900 text-[min(5vw,1.2rem)]">Docs</li>
+            <li className="px-4 py-2 rounded-full hover:bg-gray-900 text-[min(5vw,1.2rem)]">Blog</li>
+            <li className="px-4 py-2 rounded-full hover:bg-gray-900 text-[min(5vw,1.2rem)]">Ecosystem</li>
+            <li className="px-4 py-2 rounded-full hover:bg-gray-900 text-[min(5vw,1.2rem)]">Explorer</li>
+            <div className="flex flex-col my-4 gap-2">
+              <button className="px-8 py-3 rounded-full border hover:bg-gray-900 text-white font-bold text-[min(5vw,1.2rem)]">
+                Run a light node
+              </button>
+            </div>
+          </ul>
       </div>
     </div>
   )
