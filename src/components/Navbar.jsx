@@ -25,7 +25,7 @@ const Navbar = () => {
 
             <div className='hidden sm:flex items-center gap-5 ml-5'>
 
-              <a href='' target='_blank' className="group">
+              <a href='https://blog.layeredge.io/' target='_blank' className="group">
                 <RiMediumLine
                   size={22} 
                   className="text-gray-400 group-hover:text-white transition-colors duration-200"
@@ -75,7 +75,7 @@ const Navbar = () => {
           <ul className="flex flex-col items-center font-bold gap-3">
             <li className="px-4 py-2 rounded-full hover:bg-gray-900 text-[min(5vw,1.2rem)]">Docs</li>
             <li className="px-4 py-2 rounded-full hover:bg-gray-900 text-[min(5vw,1.2rem)]">Blog</li>
-            <li className="px-4 py-2 rounded-full hover:bg-gray-900 text-[min(5vw,1.2rem)]">Ecosystem</li>
+            <li className="px-4 py-2 rounded-full hover:bg-gray-900 text-[min(5vw,1.2rem)]"><Link to="/ecosystem">Ecosystem</Link></li>
             <li className="px-4 py-2 rounded-full hover:bg-gray-900 text-[min(5vw,1.2rem)]">Explorer</li>
             <div className="flex flex-col my-4 gap-2">
               <button className="px-8 py-3 rounded-full border hover:bg-gray-900 text-white font-bold text-[min(5vw,1.2rem)]">

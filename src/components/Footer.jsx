@@ -18,7 +18,7 @@ const Footer = () => {
 
                         <div className='flex items-center gap-5 ml-5'>
 
-                            <a href='' target='_blank' className="group">
+                            <a href='https://blog.layeredge.io/' target='_blank' className="group">
                                 <RiMediumLine
                                 size={22} 
                                 className="text-gray-400 group-hover:text-white transition-colors duration-200"
@@ -64,7 +64,7 @@ const Footer = () => {
                     <h3 className='text-[min(4vw,1.5rem)] font-bold text-white '>Resources</h3>
                     <ul className='py-6 text-[#6D737A] text-[min(3vw,1rem)]'>
                         <li className='py-2 my-3 hover:text-white hover:transition-colors hover:duration-200'><a href='' target='_blank'>Contact</a></li>
-                        <li className='py-2 my-3 hover:text-white hover:transition-colors hover:duration-200'><a href='' target='_blank'>Blog</a></li>
+                        <li className='py-2 my-3 hover:text-white hover:transition-colors hover:duration-200'><a href='https://blog.layeredge.io/' target='_blank'>Blog</a></li>
                         <li className='py-2 my-3 hover:text-white hover:transition-colors hover:duration-200'><a href='https://drive.google.com/drive/folders/1avOvqo_wiJZ65JYw5Lvl4GqZaCfhitHg' target='_blank'>Media Kit</a></li>
                     </ul>
                 </div>
