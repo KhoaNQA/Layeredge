@@ -57,7 +57,7 @@ const Navbar = () => {
                 <li className='nav-options'>Docs</li>
                 <li className='nav-options'>Blog</li>
                 <li className='nav-options'><Link to="/ecosystem">Ecosystem</Link></li>
-                <li className='nav-options'>Explorer</li>
+                <li className='nav-options'><Link to="/batchdetail">Explorer</Link></li>
             </ul>
           </div>
           
