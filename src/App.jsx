@@ -7,6 +7,7 @@ import What from './components/What';
 import Blog from './components/Blog';
 import Footer from './components/Footer';
 import Explorer from './components/Explorer';
+import BatchDetail from './components/BatchDetail';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/" element={<><Hero /><Work /><Banner /><What /><Blog /> </>} />
         <Route path="/ecosystem" element={<Ecosystem />} />
         <Route path="/explorer" element={<Explorer />}/>
+        <Route path="/batchdetail" element={<BatchDetail />} />
       </Routes>
       <Footer />
     </Router>
