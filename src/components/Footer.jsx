@@ -50,6 +50,9 @@ const Footer = () => {
                         
                 </div>
 
+                <div className='flex '>
+
+                
                 <div className='md:ml-56 md:mx-20 mx-5 md:mt-0 mt-14'>
                     <h3 className='text-[min(4.5vw,1.5rem)] font-bold text-white'>Explore</h3>
                     <ul className='py-6 text-[#6D737A] text-[min(3.5vw,1rem)]'>
@@ -67,6 +70,7 @@ const Footer = () => {
                         <li className='py-2 my-3 hover:text-white hover:transition-colors hover:duration-200'><a href='https://blog.layeredge.io/' target='_blank'>Blog</a></li>
                         <li className='py-2 my-3 hover:text-white hover:transition-colors hover:duration-200'><a href='https://drive.google.com/drive/folders/1avOvqo_wiJZ65JYw5Lvl4GqZaCfhitHg' target='_blank'>Media Kit</a></li>
                     </ul>
+                </div>
                 </div>
             </div>
         </div>
