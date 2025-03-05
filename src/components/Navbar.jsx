@@ -25,7 +25,7 @@ const Navbar = () => {
 
             <div className='hidden sm:flex items-center gap-5 ml-5'>
 
-              <a href='' target='_blank' className="group">
+              <a href='https://blog.layeredge.io/' target='_blank' className="group">
                 <RiMediumLine
                   size={22} 
                   className="text-gray-400 group-hover:text-white transition-colors duration-200"
@@ -57,7 +57,7 @@ const Navbar = () => {
                 <li className='nav-options'>Docs</li>
                 <li className='nav-options'>Blog</li>
                 <li className='nav-options'><Link to="/ecosystem">Ecosystem</Link></li>
-                <li className='nav-options'>Explorer</li>
+                <li className='nav-options'><Link to="/explorer">Explorer</Link></li>
             </ul>
           </div>
           
@@ -71,12 +71,12 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className={`fixed top-0 left-0 w-full h-screen bg-black/90 text-white flex flex-col items-center justify-center transition-all duration-300 ease-in-out ${toggle ? "translate-y-0" : "-translate-y-full"} xl:hidden z-50`}>
+      <div className={`fixed top-0 left-0 w-full h-[500px] bg-black/90 text-white flex flex-col items-center justify-center transition-all duration-300 ease-in-out ${toggle ? "translate-y-0" : "-translate-y-full"} xl:hidden z-50`}>
           <ul className="flex flex-col items-center font-bold gap-3">
             <li className="px-4 py-2 rounded-full hover:bg-gray-900 text-[min(5vw,1.2rem)]">Docs</li>
             <li className="px-4 py-2 rounded-full hover:bg-gray-900 text-[min(5vw,1.2rem)]">Blog</li>
-            <li className="px-4 py-2 rounded-full hover:bg-gray-900 text-[min(5vw,1.2rem)]">Ecosystem</li>
-            <li className="px-4 py-2 rounded-full hover:bg-gray-900 text-[min(5vw,1.2rem)]">Explorer</li>
+            <li className="px-4 py-2 rounded-full hover:bg-gray-900 text-[min(5vw,1.2rem)]"><Link to="/ecosystem">Ecosystem</Link></li>
+            <li className="px-4 py-2 rounded-full hover:bg-gray-900 text-[min(5vw,1.2rem)]"><Link to="/explorer">Explorer</Link></li>
             <div className="flex flex-col my-4 gap-2">
               <button className="px-8 py-3 rounded-full border hover:bg-gray-900 text-white font-bold text-[min(5vw,1.2rem)]">
                 Run a light node

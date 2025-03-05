@@ -11,14 +11,14 @@ const Footer = () => {
         <div className='w-full md:px-20 px-10'>
             <div className='md:max-w-[1480px] m-auto grid md:grid-cols-3 max-[400px]:grid-cols-2  gap-2 max-w-[700px]'>
                       
-                <div className='md:ml-auto ml-20'>
+                <div className='md:ml-auto ml-5'>
                     <div className='flex'>
                     
                         <img src={logo} className='h-[30px] w-100%'/>
 
                         <div className='flex items-center gap-5 ml-5'>
 
-                            <a href='' target='_blank' className="group">
+                            <a href='https://blog.layeredge.io/' target='_blank' className="group">
                                 <RiMediumLine
                                 size={22} 
                                 className="text-gray-400 group-hover:text-white transition-colors duration-200"
@@ -45,14 +45,14 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <h3 className='py-2 text-white text-[min(3vw,1.2rem)] my-8'>Security Layer on Bitcoin.</h3>
-                    <p className='py-2 text-[#6D737A] font-thin text-[min(3vw,1rem)]'>LayerEdge @ 2024-2025. All right reserved.</p>
+                    <h3 className='py-2 text-white text-[min(3.5vw,1.2rem)] my-8'>Security Layer on Bitcoin.</h3>
+                    <p className='py-2 text-[#6D737A] font-thin text-[min(3.5vw,1rem)]'>LayerEdge @ 2024-2025. All right reserved.</p>
                         
                 </div>
 
-                <div className='md:ml-56 mx-20 md:mt-0 mt-14'>
-                    <h3 className='text-[min(4vw,1.5rem)] font-bold text-white'>Explore</h3>
-                    <ul className='py-6 text-[#6D737A] text-[min(3vw,1rem)]'>
+                <div className='md:ml-56 md:mx-20 mx-5 md:mt-0 mt-14'>
+                    <h3 className='text-[min(4.5vw,1.5rem)] font-bold text-white'>Explore</h3>
+                    <ul className='py-6 text-[#6D737A] text-[min(3.5vw,1rem)]'>
                         <li className='py-2 my-3 hover:text-white hover:transition-colors hover:duration-200'><a href='https://github.com/Layer-Edge/Whitepaper' target='_blank'>Whitepaper</a></li>
                         <li className='py-2 my-3 hover:text-white hover:transition-colors hover:duration-200'><a href='https://github.com/Layer-Edge' target='_blank'>GitHub</a></li>
                         <li className='py-2 my-3 hover:text-white hover:transition-colors hover:duration-200'><a href='https://docs.layeredge.io/' target='_blank'>Docs</a></li>
@@ -60,11 +60,11 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                <div className='md:ml-56 mx-20 md:mt-0 mt-14'>
-                    <h3 className='text-[min(4vw,1.5rem)] font-bold text-white '>Resources</h3>
-                    <ul className='py-6 text-[#6D737A] text-[min(3vw,1rem)]'>
+                <div className='md:ml-56 md:mx-20 mx-5 md:mt-0 mt-14'>
+                    <h3 className='text-[min(4.5vw,1.5rem)] font-bold text-white '>Resources</h3>
+                    <ul className='py-6 text-[#6D737A] text-[min(3.5vw,1rem)]'>
                         <li className='py-2 my-3 hover:text-white hover:transition-colors hover:duration-200'><a href='' target='_blank'>Contact</a></li>
-                        <li className='py-2 my-3 hover:text-white hover:transition-colors hover:duration-200'><a href='' target='_blank'>Blog</a></li>
+                        <li className='py-2 my-3 hover:text-white hover:transition-colors hover:duration-200'><a href='https://blog.layeredge.io/' target='_blank'>Blog</a></li>
                         <li className='py-2 my-3 hover:text-white hover:transition-colors hover:duration-200'><a href='https://drive.google.com/drive/folders/1avOvqo_wiJZ65JYw5Lvl4GqZaCfhitHg' target='_blank'>Media Kit</a></li>
                     </ul>
                 </div>

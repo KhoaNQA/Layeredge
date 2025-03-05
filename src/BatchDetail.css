@@ -1,0 +1,148 @@
+.batch-container {
+    color: #fff;
+    font-family: Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.batch-detail-wrap {
+    margin-top: 190px;
+    width: 60%;
+}
+
+.batch-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.batch-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-top: 40px;
+}
+
+.batch-btn {
+    background: #222;
+    color: #ffa500;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.active {
+    color: #ffb55b;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.batch-btn-pending{
+    border-width: 1px;
+    border-color: #ffb55b;
+    background-color: black;
+}
+
+.batch-actions {
+    display: flex;
+    /* background-color: #ffa500; */
+    flex: 1;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.batch-content {
+    background-color: black;
+    padding: 40px 30px;
+    /* border-radius: 8px; */
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-width: 1px;
+    border-color: #131313;
+   
+}
+
+
+.batch-row {
+    display: flex;
+    padding-bottom: 15px;
+    align-items: center;
+}
+
+
+.batch-row:last-child {
+    border-bottom: none;
+}
+
+.batch-label {
+    color: #80807e;
+    font-weight:100 ;
+    flex: 0.5;
+    text-align: right;
+    font-size: smaller;
+    opacity: 0.8;
+}
+
+.batch-txt {
+    display: flex;
+    align-self: left;
+    padding-left: 20px;
+}
+
+.batch-row strong {
+    color: #fff;
+    word-break: break-word;
+    flex: 2;
+    text-align: right;
+}
+
+.confirming {
+    color: #ffa500;
+    font-weight: bold;
+}
+
+.batch-column{
+    display: flex;
+    flex-direction: column;
+    
+}
+.batch-footer {
+    background-color: black;
+    padding: 40px;
+    /* border-radius: 8px; */
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 1px solid #131313;
+}
+
+.batch-footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; 
+}
+
+.batch-footer-label {
+    color: #80807e;
+    font-weight: 100;
+    font-size: 14px;
+    text-align: left;
+}
+
+.batch-footer-text {
+    color: #fff;
+    font-size: 16px;
+    text-align: left;
+    word-break: break-word;
+}
+
+.confirming {
+    color: #ffa500;
+    font-weight: bold;
+}

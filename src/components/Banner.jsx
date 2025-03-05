@@ -4,8 +4,8 @@ import BannerCard from './BannerCard'
 const Banner = () => {
   return (
     <div className='text-white flex mx-auto my-32'>
-        <div className='mx-20'>
-            <h2 className='font-bold text-[min(6vw,3.5rem)] lg:mx-32 mx-8'>
+        <div className='md:mx-20 mx-10'>
+            <h2 className='font-bold text-[min(8vw,3.5rem)] lg:mx-32 mx-4'>
                 <ul>Bitcoin</ul>
                 <ul>as Bedrock</ul>
                 <ul>For Blockchains</ul>
