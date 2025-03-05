@@ -71,7 +71,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className={`fixed top-0 left-0 w-full h-screen bg-black/90 text-white flex flex-col items-center justify-center transition-all duration-300 ease-in-out ${toggle ? "translate-y-0" : "-translate-y-full"} xl:hidden z-50`}>
+      <div className={`fixed top-0 left-0 w-full h-[500px] bg-black/90 text-white flex flex-col items-center justify-center transition-all duration-300 ease-in-out ${toggle ? "translate-y-0" : "-translate-y-full"} xl:hidden z-50`}>
           <ul className="flex flex-col items-center font-bold gap-3">
             <li className="px-4 py-2 rounded-full hover:bg-gray-900 text-[min(5vw,1.2rem)]">Docs</li>
             <li className="px-4 py-2 rounded-full hover:bg-gray-900 text-[min(5vw,1.2rem)]">Blog</li>

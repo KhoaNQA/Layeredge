@@ -15,12 +15,12 @@ const Hero = () => {
       </div>
       
         <div className='text-white absolute justify-center items-center flex flex-col mx-10'>
-          <p className='font-light text-[min(3vw,1.2rem)]'>Powering trustless settlement & trust-minimized verification on Bitcoin at 99% lower cost for all Layers & Apps</p>
-          <h2 className='font-bold text-[min(8vw,5rem)] my-4 ' >
+          <p className='font-light text-[min(4vw,1.2rem)]'>Powering trustless settlement & trust-minimized verification on Bitcoin at 99% lower cost for all Layers & Apps</p>
+          <h2 className='font-bold text-[min(10vw,5rem)] my-4 ' >
               <ul>Bitcoin Backed </ul>
               <ul>Internet</ul>
           </h2>
-          <div className='flex gap-5 text-[min(2vw,1.2rem)]'>
+          <div className='flex gap-5 text-[min(3vw,1.2rem)]'>
             <button className='px-5 py-2 rounded-full bg-black text-white border  hover:bg-gray-900'>Incentivized Testnet</button>
             <button className='px-5 py-2 rounded-full bg-black text-white border  hover:bg-gray-900'>Documentation</button>
           </div>

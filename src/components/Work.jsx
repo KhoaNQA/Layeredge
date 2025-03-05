@@ -17,14 +17,14 @@ import { Link } from 'react-router-dom';
 const Work = () => {
   return (
     <div className=' mx-20'>
-        <div className='text-white text-center justify-center items-center flex flex-col mx-10 mt-20'>
-            <h2 className='font-bold text-[min(6vw,4rem)] my-4 '>
+        <div className='text-white text-center justify-center items-center flex flex-col md:mx-10 mt-20'>
+            <h2 className='font-bold text-[min(8vw,4rem)] my-4 '>
                 <ul>Powering Trust-Minimized</ul>
                 <ul>Settlement on Bitcoin</ul>
             </h2>
-            <p className='font-light text-[min(2.5vw,1.2rem)]'>LayerEdge opens door for anyone to tap into Bitcoin's security, while taking only upto 1% of the Bitcoin blockspace they would have taken building directly without LayerEdge</p>
+            <p className='font-light text-[min(4vw,1.2rem)]'>LayerEdge opens door for anyone to tap into Bitcoin's security, while taking only upto 1% of the Bitcoin blockspace they would have taken building directly without LayerEdge</p>
         </div>
-        <div className='flex flex-wrap items-center justify-center gap-2 text-white text-[min(2vw,0.7rem)] my-5 mx-auto max-w-[90%] sm:max-w-[80%] lg:max-w-[70%] px-4'>
+        <div className='flex flex-wrap items-center justify-center gap-2 text-white text-[min(3vw,0.7rem)] my-5 mx-auto max-w-[90%] sm:max-w-[80%] lg:max-w-[70%] px-4'>
 
             <button className='px-3 py-1 rounded-full bg-black text-white border hover:bg-gray-900'>All</button>
             <button className='px-3 py-1 rounded-full bg-black text-white border hover:bg-gray-900'>Chains</button>
@@ -38,7 +38,7 @@ const Work = () => {
             <button className='px-3 py-1 rounded-full bg-black text-white border hover:bg-gray-900'>Others</button>
             
         </div>
-        <div className='grid lg:grid-cols-4 lg:grid-rows-3 md:grid-cols-3 md:grid-rows-4 sm:grid-cols-2 sm:grid-rows-3 grid-cols-1 grid-rows-6 py-4 md:gap-4 gap-1 mx-20'>
+        <div className='grid lg:grid-cols-4 lg:grid-rows-3 md:grid-cols-3 md:grid-rows-4 sm:grid-cols-2 sm:grid-rows-3 grid-cols-1 grid-rows-6 py-4 md:gap-4 gap-1 md:mx-20 mx-5'>
             <Card 
             imgSrc={cysic}
             content={'A real-time ZK Proof Generation Layer with State-of-the-Art hardware and prover network.'}
@@ -91,7 +91,7 @@ const Work = () => {
             />
         </div>
         <div className='flex justify-end mx-20'>
-            <p className='nav-option flex justify-end text-white font-bold text-[min(3vw,1rem)]'>
+            <p className='nav-option flex justify-end text-white font-bold text-[min(4vw,1rem)]'>
                 <Link to="/ecosystem">View All</Link>
             </p>
         </div>

@@ -5,7 +5,7 @@ const Blog = () => {
   return (
     <div className='md:max-w-[1280px] mx-auto px-4 sm:px-8 lg:px-12 w-full h-full text-white '>
         <div className='flex justify-between '>
-            <h2 className='font-bold text-[min(6vw,3.5rem)] '>
+            <h2 className='font-bold text-[min(7vw,3.5rem)] '>
                 What's new?
             </h2>
 
