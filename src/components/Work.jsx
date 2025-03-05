@@ -16,7 +16,7 @@ import { Link } from 'react-router-dom';
 
 const Work = () => {
   return (
-    <div className=' mx-20'>
+    <div className=' md:mx-20 mx-5'>
         <div className='text-white text-center justify-center items-center flex flex-col md:mx-10 mt-20'>
             <h2 className='font-bold text-[min(8vw,4rem)] my-4 '>
                 <ul>Powering Trust-Minimized</ul>
