@@ -1,10 +1,15 @@
 .batch-container {
     color: #fff;
     font-family: Arial, sans-serif;
-    width: 100%;
+    width: 100vw;
+    overflow-x: hidden;
     height: 100%;
     display: flex;
     justify-content: center;
+}
+
+.batch-buttons-wrapper{
+    display: flex;
 }
 
 .batch-detail-wrap {
@@ -27,20 +32,33 @@
 }
 
 .batch-btn {
-    background: #222;
-    color: #ffa500;
+    color: white;
     padding: 8px 12px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    flex-direction: 'row';
+    display: flex;
+    align-items: center;
 }
+
+.batch-btn-proof {
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-width: 1px;
+
+}
+
 .active {
     color: #ffb55b;
     padding: 10px 20px;
     font-weight: bold;
 }
 
-.batch-btn-pending{
+.batch-btn-pending {
     border-width: 1px;
     border-color: #ffb55b;
     background-color: black;
@@ -48,25 +66,26 @@
 
 .batch-actions {
     display: flex;
-    /* background-color: #ffa500; */
     flex: 1;
     justify-content: space-between;
     padding: 0px 20px;
+    flex-direction: row;
+    border-width: 1px;
+    border-color: gray;
+    align-items: center;
+
 }
 
 .batch-content {
     background-color: black;
     padding: 40px 30px;
-    /* border-radius: 8px; */
     margin-bottom: 5px;
     display: flex;
     flex-direction: column;
     gap: 10px;
     border-width: 1px;
     border-color: #131313;
-   
 }
-
 
 .batch-row {
     display: flex;
@@ -74,14 +93,13 @@
     align-items: center;
 }
 
-
 .batch-row:last-child {
     border-bottom: none;
 }
 
 .batch-label {
     color: #80807e;
-    font-weight:100 ;
+    font-weight: 100;
     flex: 0.5;
     text-align: right;
     font-size: smaller;
@@ -101,20 +119,9 @@
     text-align: right;
 }
 
-.confirming {
-    color: #ffa500;
-    font-weight: bold;
-}
-
-.batch-column{
-    display: flex;
-    flex-direction: column;
-    
-}
 .batch-footer {
     background-color: black;
     padding: 40px;
-    /* border-radius: 8px; */
     margin-bottom: 15px;
     display: flex;
     flex-direction: column;
@@ -125,7 +132,7 @@
 .batch-footer-item {
     display: flex;
     flex-direction: column;
-    gap: 5px; 
+    gap: 5px;
 }
 
 .batch-footer-label {
@@ -145,4 +152,138 @@
 .confirming {
     color: #ffa500;
     font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .batch-detail-wrap {
+        width: 90%;
+        margin-top: 100px;
+    }
+
+    .batch-title {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
+    .batch-header {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .batch-actions {
+        flex-direction: row;
+        padding: 0;
+        justify-items: space-between;
+        width: 100%;
+        border-width: 1px;
+    }
+
+    .batch-btn {
+        /* width: 100%; */
+        text-align: center;
+    }
+
+    .batch-content {
+        padding: 20px;
+    }
+
+    .batch-row {
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+    }
+
+    .batch-label {
+        flex: 2;
+        text-align: right;
+    }
+
+    .batch-txt {
+        flex: 1;
+        text-align: left;
+    }
+
+    .copy-btn {
+        display: flex;
+        position: relative;
+    }
+
+    .batch-footer {
+        padding: 20px;
+    }
+
+    .batch-footer-item {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .batch-container {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    .batch-detail-wrap {
+        width: 85%;
+        margin-top: 80px;
+    }
+
+    .batch-title {
+        font-size: 25px;
+    }
+
+    .batch-header {
+        gap: 5px;
+    }
+
+    .batch-btn {
+        padding: 6px 10px;
+        font-size: 14px;
+    }
+
+    .batch-content {
+        padding: 15px;
+    }
+
+    .batch-txt {
+        font-size: smaller;
+    }
+
+    .batch-row {
+        padding-bottom: 10px;
+    }
+
+    .batch-label {
+        font-size: 14px;
+        flex: 2.5;
+    }
+
+    .batch-footer {
+        padding: 15px;
+    }
+
+    .batch-footer-label {
+        font-size: 12px;
+    }
+
+    .batch-footer-text {
+        font-size: 14px;
+    }
+    .batch-buttons-wrapper{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .active{
+        flex: 1;
+    }
+    .batch-btn-proof{
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+    }
+    .batch-btn{
+        height: 50px;
+    }
 }
