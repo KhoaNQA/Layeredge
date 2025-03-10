@@ -1,7 +1,10 @@
 import React from "react";
+import { useParams } from "react-router-dom";
 import "../BatchDetail.css";
 
 const BatchDetails = () => {
+  const { id } = useParams();
+
   return (
     <div className="batch-container">
       <div className="batch-detail-wrap">

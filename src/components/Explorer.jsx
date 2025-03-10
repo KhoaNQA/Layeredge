@@ -9,12 +9,15 @@ import availlogo from '../assets/availlogo.png';
 import bflogo from '../assets/bflogo.png';
 import celastia from '../assets/celastia.png';
 import onlylayer from '../assets/onlylayer.png';
+import BatchCard from './BatchCard';
+import MiddleTruncate from 'react-middle-truncate';
+import { DefaultPagination } from './DefaultPagination';
 
 
 
 const Explorer = () => {
   return (
-    <div className='text-white flex flex-col justify-center items-center min-h-screen my-14'>
+    <div className='text-white flex flex-col justify-center items-center min-h-screen my-24'>
         <h1 className='text-[min(4vw,2.2rem)] font-bold  '>LayerEdge Explorer</h1>
         <div className='grid grid-cols-1 md:grid-cols-2  gap-2 w-full max-w-[900px] px-4 my-10'>
 
@@ -63,6 +66,40 @@ const Explorer = () => {
                 <img src={onlylayer} className='w-6 h-6' />
                 <img src={kaanch} className='w-6 h-6' />
             </div>
+        </div>
+        <div className='mt-32 md:max-w-[700px] mx-auto px-4 sm:px-8 lg:px-12 w-full h-full text-white items-center'>
+            <div className='flex justify-between p-4 border border-white border-opacity-10 rounded my-4'>
+                <h3 className=' text-gray-300'>
+                    Recent Batches
+                </h3>
+                <div className='flex gap-4 '>
+                    <h3 className='font-thin text-gray-500'>
+                        Last updated: 21:16:17
+                    </h3>
+                    <ul className='font thin text-gray-500  hover:text-white transition-colors duration-200 cursor-pointer '>
+                        View All
+                    </ul>
+                </div>
+            </div>
+            <div className='flex flex-col justify-center items-center p-4 border border-white border-opacity-10 rounded gap-1'>
+                <BatchCard
+                    id={'C7579945109CEA18D48788703DD92424BB0AD0ED0C12A5AC201F8008677EB431'}
+                />
+                <BatchCard
+                    id={'C7579945109CEA18D48788703DD92424BB0AD0ED0C12A5AC201F8008677EB431'}
+                />
+                <BatchCard
+                    id={'C7579945109CEA18D48788703DD92424BB0AD0ED0C12A5AC201F8008677EB431'}
+                />
+                <BatchCard
+                    id={'C7579945109CEA18D48788703DD92424BB0AD0ED0C12A5AC201F8008677EB431'}
+                />
+                <BatchCard
+                    id={'C7579945109CEA18D48788703DD92424BB0AD0ED0C12A5AC201F8008677EB431'}
+                />
+                <DefaultPagination/>
+            </div>
+            
         </div>
     </div>
   )
