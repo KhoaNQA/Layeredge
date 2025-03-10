@@ -1,0 +1,6 @@
+.truncate-middle {
+    width: 240px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }

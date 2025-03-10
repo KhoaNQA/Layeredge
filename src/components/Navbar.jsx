@@ -54,7 +54,7 @@ const Navbar = () => {
 
           <div className='hidden xl:flex' >
             <ul className='flex gap-7 text-white'>
-                <li className='nav-options'>Docs</li>
+                <li className='nav-options'><Link to="/batchdetail">Docs</Link></li>
                 <li className='nav-options'>Blog</li>
                 <li className='nav-options'><Link to="/ecosystem">Ecosystem</Link></li>
                 <li className='nav-options'><Link to="/explorer">Explorer</Link></li>

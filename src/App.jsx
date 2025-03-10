@@ -14,10 +14,10 @@ const App = () => {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<><Hero /><Work /><Banner /><What /><Blog /> </>} />
+        <Route path="/" element={<><Hero /><Work /><Banner /><What /><Blog /></>} />
         <Route path="/ecosystem" element={<Ecosystem />} />
-        <Route path="/explorer" element={<Explorer />}/>
-        <Route path="/batchdetail" element={<BatchDetail />} />
+        <Route path="/explorer" element={<Explorer />} />
+        <Route path="/batch/:id" element={<BatchDetail />} />
       </Routes>
       <Footer />
     </Router>
