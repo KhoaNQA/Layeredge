@@ -17,11 +17,11 @@ import { DefaultPagination } from './DefaultPagination';
 
 const Explorer = () => {
   return (
-    <div className='text-white flex flex-col justify-center items-center min-h-screen my-24'>
+    <div className='text-white flex flex-col justify-center items-center min-h-screen w-full my-24 mx-auto px-10'>
         <h1 className='text-[min(4vw,2.2rem)] font-bold  '>LayerEdge Explorer</h1>
-        <div className='grid grid-cols-1 md:grid-cols-2  gap-2 w-full max-w-[900px] px-4 my-10'>
+        <div className='grid grid-cols-1 lg:grid-cols-2  gap-2 w-full max-w-[900px] px-4 my-10 '>
 
-            <div className='flex justify-between items-center border border-white border-opacity-10 px-8 py-8'>
+            <div className='flex justify-between items-center border border-white border-opacity-10 px-8 py-8 '>
                 <span className='text-[min(3vw,2rem)] font-bold'>40,043</span>
                 <span className='flex gap-4 items-center'>
                     <p className='text-[min(2.5vw,1rem)] text-gray-400 font-thin'>Total Batches</p>
@@ -51,12 +51,12 @@ const Explorer = () => {
                 <span className='text-[min(3vw,2rem)] font-bold'>3,355,363</span>
             </div>
         </div>
-        <div className='flex justify-between items-center gap-24 bg-white bg-opacity-5 rounded-2xl px-6 py-4' >
-            <h3 className='text-[min(3vw,1rem)] text-gray-400 font-thin whitespace-nowrap'>
+        <div className='grid lg:grid-cols-2 grid-cols-1 items-center text-center lg:text-left lg:gap-24 gap-4 bg-white bg-opacity-5 rounded-2xl px-6 py-4' >
+            <h3 className='text-[min(3vw,1rem)] text-gray-400 justify-center items-center font-thin whitespace-nowrap'>
                 Protocols Aggregated by LayerEdge
             </h3>
 
-            <div className='flex flex-wrap items-center gap-8'>
+            <div className='flex flex-wrap items-center gap-7'>
                 <img src={mintchain} className='w-6 h-6' />
                 <img src={availlogo} className='w-6 h-6' />
                 <img src={bflogo} className='w-6 h-6' />
